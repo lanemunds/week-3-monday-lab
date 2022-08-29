@@ -1,0 +1,42 @@
+body{
+    background-color: antiquewhite;
+}
+
+
+h1{
+    size: 30pt;
+    color: aliceblue;
+    background-color: brown;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: aliceblue;
+    background-color: blue;
+}
+h3{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+}
+img{
+    height: 300px;
+    border-radius: 400px;
+    
+}
+
+.column {
+    float: left;
+    width: 33%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
